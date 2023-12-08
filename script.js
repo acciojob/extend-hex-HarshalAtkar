@@ -3,7 +3,7 @@ const extendHex = (shortHex) => {
 	let newstring;
 	for(i of hortHex){
 		if(shortHex(i)!=#){
-			newstring=shortHex(i)+shortHex(i);
+			newstring=newstring+shortHex(i)+shortHex(i);
 		}
 		return newstring;
 	}
