@@ -5,7 +5,7 @@ const extendHex = (shortHex) => {
 		if(shortHex(i)!=#){
 			newstring=newstring+shortHex(i)+shortHex(i);
 		}
-		return newstring;
+		return #+newstring;
 	}
 };
 
