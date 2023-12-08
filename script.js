@@ -1,7 +1,7 @@
 const extendHex = (shortHex) => {
   // write your code here
 	let newstring;
-	for(i of hortHex){
+	for(i of shortHex){
 		if(shortHex(i)!=#){
 			newstring=newstring+shortHex(i)+shortHex(i);
 		}
