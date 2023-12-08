@@ -8,15 +8,7 @@
 // 		return #+newstring;
 // 	}
 // };
-const extendHex = (shortHex) => {
-  let newstring = "";
-  for(let i of shortHex){
-    if(i!="#"){
-      newstring=newstring+i+i;
-    }
-  }
-  return "#"+newstring;
-};
+
 
 
 // Do not change the code below.
